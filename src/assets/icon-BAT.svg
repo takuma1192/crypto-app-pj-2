@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>coin/BAT</title>
+    <desc>Created with Sketch.</desc>
+    <g id="coin/BAT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BAT_icon" transform="translate(2.000000, 3.000000)">
+            <polygon id="Path" fill="#662D91" points="27.9975369 24.3399015 14.0320197 16.3374384 0.0443349754 24.4285714"></polygon>
+            <polygon id="Path" fill="#9E1F63" points="14.0098522 5.32907052e-15 13.9211823 16.3374384 27.9975369 24.3399015"></polygon>
+            <polygon id="Path" fill="#FF5000" points="0.0443349754 24.4285714 13.9655172 16.4704433 14.0098522 -5.32907052e-15"></polygon>
+            <polygon id="Path" stroke="#FF5000" stroke-width="0.83" fill="#FFFFFF" points="13.9211823 9.93103448 8.29064039 19.6182266 19.7068966 19.6182266"></polygon>
+        </g>
+    </g>
+</svg>
