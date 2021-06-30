@@ -49,10 +49,38 @@ export default {
 </script>
 
 <style scoped>
-.detail {
+.logo {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  background: #ffffff;
+  margin: 10px;
+  padding: 10px 200px 10px 20px;
 }
 
+.logo img {
+  width: 100%;
+  height: 100px;
+}
 
+.logo p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px;
+  padding-left: 45px;
+}
+
+.item {
+  display: flex;
+}
+
+.item button {
+  white-space: nowrap;
+  font-size: 30px;
+  margin: 10px 40px;
+  padding: 0 50px;
+  background: #ffffff;
+  border: none;
+  border-radius: 30px;
+  
+}
 </style>
