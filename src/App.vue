@@ -1,92 +1,4 @@
-<template>
-  <div class="chart-page">
-      <div class="header-wrap">
-        <h1>Crypto App</h1>
-        <p>ログアウト</p>
-      </div>
-      <div class="title">
-        <h2>・銘柄一覧</h2>
-      </div>
-      <div class="detail">
-        <div class="lists">
-          <h2>【現物取引】</h2>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-BTC.svg" />
-              <p>BTC</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-ETH.svg" />
-              <p>ETH</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-BCH.svg" />
-              <p>BCH</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-LTC.svg" />
-              <p>LTC</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-XRP.svg" />
-              <p>XPR</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-        </div>
-        <div class="lists">
-          <h2>【レバレッジ取引】</h2>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-btc-jpy.svg" />
-              <p>BTC/JPY</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-eth-jpy.svg" />
-              <p>ETH/JPY</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-bch-jpy.svg" />
-              <p>BTH/JPY</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-ltc-jpy.svg" />
-              <p>LTC/JPY</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-          <div class="item">
-            <div class="logo">
-              <img src="./assets/icon-xrp-jpy.svg" />
-              <p>XPR/JPY</p>
-            </div>
-            <button class="button">詳細</button>
-          </div>
-        </div>
-      </div>
-    </div>
-</template>
+
 
 <style>
 @charset "UTF-8";
@@ -194,51 +106,12 @@ input, select {
     vertical-align:middle;
 }
 
-.chart-page {
-  height: 100%;
-  background: #E5E5E5;
-}
-
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-wrap h1 {
-  font-size: 60px;
-  font-weight: bold;
-  text-decoration: underline;
-  padding: 20px;
-}
-
-.header-wrap p {
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  padding: 40px;
-}
-
-.title {
-  font-size: 40px;
-  padding: 20px;
-}
-
-.detail {
-  display: flex;
-  justify-content: space-around;
-}
-
-.detail h2 {
-  font-size: 40px;
-}
 
 .lists {
   margin-bottom: 30px;
 } 
 
-.lists h2 {
-  padding: 8px;
-}
+
 
 .item {
   display: flex;
@@ -274,4 +147,38 @@ input, select {
   margin: 30px;
   padding-left: 45px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .chart-page {
+    height: 100%;
+  }
+
+  .header-wrap {
+    flex-wrap: wrap;
+  }
+
+  .header-wrap h1 {
+    font-size: 50px;
+  }
+
+  .detail {
+    flex-wrap: wrap;
+  }
+
+  .title {
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .item {
+    width: 100%;
+    margin: 0 auto;
+    padding: initial;
+  }
+
+  .item button {
+    display: none;
+  }
+}  
 </style>
