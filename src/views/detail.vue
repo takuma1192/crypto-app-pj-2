@@ -1,18 +1,28 @@
 <template>
   <div class="chart-page">
-      <div class="header-wrap">
-        <h1>Crypto App</h1>
-        <p>ログアウト</p>
-      </div>
+    <Header />
       <div class="title">
         <h2>・銘柄一覧</h2>
         <h2>【現物取引】</h2>
-        <card-a />
+        <CardA />
         <h2>【レバレッジ取引】</h2>
-        <card-b />
+        <CardB />
       </div>
   </div>
 </template>
+
+<script>
+import Header from "./components/Header";
+import CardA from "./components/CardA";
+import CardB from "./components/CardB";
+export default {
+  components: {
+    Header,
+    CardA,
+    CardB
+  }
+};
+</script>
 
 <style scoped>
 .chart-page {
